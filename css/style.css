@@ -1,0 +1,182 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  background: url(../img/background.png) repeat #f5f2ef
+}
+
+ul,
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#structure {
+  min-height: 100%;
+  box-sizing: border-box; /*Свойства width и height включают в себя значения полей и границ, но не отступов (margin)*/
+  padding-bottom: 190px;
+}
+
+h1 {
+  font-family: "PT Sans Narrow";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+h2 {
+  font-family: "PT Sans Narrow";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.m50 {
+  margin-bottom: 50px;
+}
+
+header {
+  height: 72px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nofloat::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.nofloat::before {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.hd-menu {
+  width: 780px;
+  float: left;
+}
+
+/*.hd-menu ul {
+  display: inline-block;
+}*/
+
+.hd-menu li,
+.hd-user-info {
+  display: inline-block;
+  line-height: 56px;
+  height: 56px;
+  font-size: 15px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.hd-menu a,
+.hd-user-info a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.hd-user-info {
+  width: 140px;
+  float: right;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.item-content .photo-block {
+  width: 480px;
+  float: left;
+  margin-left: -10px;
+}
+
+.photo-block > img {
+  margin-bottom: -10px;
+}
+
+.small-photos img {
+  float: left;
+}
+
+.item-content .info-block {
+  width: 400px;
+  padding: 0 10px;
+  float: right;
+}
+
+.info-block .in-stock {
+  float: left;
+}
+
+.info-block .article {
+  float: right;
+}
+
+
+.buy p {
+  display: inline-block;
+  background-color: yellow;
+}
+
+.contacts {
+  float: left;
+  width: 320px;
+  color: #fff;
+}
+
+.contacts,
+.contacts a {
+  color: #fff;
+}
+
+.social-block {
+  float: left;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.socials a {
+  display: inline-block;
+  background: white;
+}
+
+.copyright {
+  width: 140px;
+  float: right;
+  color: #fff;
+}
+
+footer {
+  margin-top: -190px;
+  height: 190px;
+  background-color: #000000;
+}
